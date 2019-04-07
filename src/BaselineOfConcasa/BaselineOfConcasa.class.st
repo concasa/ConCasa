@@ -8,6 +8,8 @@ Class {
 BaselineOfConcasa >> baseline: spec [
 	<baseline>
 	spec for: #common do: [ 
-		"spec package: 'VKI-Colors' "
+		spec 
+			package: 'Concasa';
+			package: 'Concasa-Tests' with: [ spec requires: #('Concasa') ] 
 	]
 ]
