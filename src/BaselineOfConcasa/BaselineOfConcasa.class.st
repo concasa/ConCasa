@@ -7,5 +7,7 @@ Class {
 { #category : #baselines }
 BaselineOfConcasa >> baseline: spec [
 	<baseline>
-	spec for: #common do: [ spec package: 'VKI-Colors' ]
+	spec for: #common do: [ 
+		"spec package: 'VKI-Colors' "
+	]
 ]
