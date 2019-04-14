@@ -20,6 +20,7 @@ BaselineOfConcasa >> baseline: spec [
 		spec	
 			group: 'default' with: #('Model' 'Gui');
 			group: 'Model' with: #('Concasa');
+			group: 'Gui' with: #('Concasa-Gui');
 			group: 'Tests' with: #('Concasa-Tests' 'Concasa-Gui-Tests');
 			group: 'All' with: #('Mode' 'Gui' 'Tests')	
 	]
